@@ -1,6 +1,6 @@
 function aviator(){
 let app = new PIXI.Application({ width: 800, height: 460 ,background:'#CBEDE9'});
-document.body.append(app.view)
+document.body.appendChild(app.view)
 let sprite = PIXI.Sprite.from('https://cdn-icons-png.flaticon.com/128/870/870194.png');
 let sprite1 = PIXI.Sprite.from('https://png.pngtree.com/png-vector/20230206/ourmid/pngtree-clouds-icon-transparent-background-png-image_6583304.png');
 let sprite2 = PIXI.Sprite.from('https://png.pngtree.com/png-vector/20230206/ourmid/pngtree-clouds-icon-transparent-background-png-image_6583304.png');
